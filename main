@@ -5,6 +5,8 @@ end
 if isfile("HttpSpy") then
 game.Players.LocalPlayer:Kick("")
 end
+wait(0.5)
+rconsoleclear()
 wait(1)
 rconsoleprint("@@RED@@")
 rconsoleprint([[
