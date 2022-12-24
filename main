@@ -1,3 +1,4 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/Bypassers/SilentAimBypass.txt",true))() -- Bypass
 task.wait(1)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/CuffGrim", true))();
+rconsoleprint("Verification Bypassed - Credits ray.#9872 shaddered#0001
