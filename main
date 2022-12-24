@@ -1,4 +1,3 @@
-rconsoleclear()
 if isfile("HttpsSpy") then
 game.Players.LocalPlayer:Kick("")
 end
@@ -6,8 +5,6 @@ if isfile("HttpSpy") then
 game.Players.LocalPlayer:Kick("")
 end
 wait(0.5)
-rconsoleclear()
-wait(1)
 while true do
   rconsoleclear()
   sleep(0.1)
