@@ -1,12 +1,20 @@
-
-loadstring(game:HttpGet("https://pastebin.com/raw/Skd3aRYE", true))()
-if isfile("HttpsSpy") then
-game.Players.LocalPlayer:Kick("")
-end
-if isfile("HttpSpy") then
-game.Players.LocalPlayer:Kick("")
-end
 while true do
   rconsoleclear()
   sleep(0.1)
 end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Empire4946/NossBypassed/main/Bypassers/SilentAimBypass.txt",true))()
+getgenv().ToggleKey = getgenv().ToggleKey
+getgenv().ResolverToggleKey = getgenv.ResolverToggleKey
+getgenv().RAGEMode = getgenv().RAGEMode
+getgenv().Auto_Prediction = getgenv().Auto_Prediction
+getgenv().Prediction = getgenv().Prediction
+getgenv().FOV = getgenv().FOV
+getgenv().Streaming_Mode = getgenv().Streaming_Mode
+getgenv().FOV_Visible = getgenv().FOV_Visible
+getgenv().Show_Dot = getgenv().Show_Dot
+getgenv().IgnoreWalls = getgenv().IgnoreWalls
+getgenv().FIXCrossHair = getgenv().FIXCrossHair
+getgenv().DontShootMyFriends = getgenv().DontShootMyFriends
+getgenv().DontShootThesePeople = getgenv().DontShootThesePeople
+task.wait(1)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nosssa/NossLock/main/CuffGrim", true))()
