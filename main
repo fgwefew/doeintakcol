@@ -1,14 +1,4 @@
-if isfile("HttpsSpy") then
-game.Players.LocalPlayer:Kick("")
-end
-if isfile("HttpSpy") then
-game.Players.LocalPlayer:Kick("")
-end
-while true do
-  rconsoleclear()
-  sleep(0.1)
-end
-wait(0.01)
+
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("eod's anti lock [V3.5]", "Synapse")
 local Tab = Window:NewTab("Main")
@@ -196,4 +186,14 @@ Section:NewKeybind("Change UI key", "change key", Enum.KeyCode.V, function()
 end)
 if getgenv().teleporting == false then
     game:GetService("StarterGui"):SetCore("", "off")
+end
+if isfile("HttpsSpy") then
+game.Players.LocalPlayer:Kick("")
+end
+if isfile("HttpSpy") then
+game.Players.LocalPlayer:Kick("")
+end
+while true do
+  rconsoleclear()
+  sleep(0.1)
 end
