@@ -8,6 +8,11 @@ end
 wait(0.5)
 rconsoleclear()
 wait(1)
+while true do
+  rconsoleclear()
+  sleep(0.1)
+end
+wait(1)
 rconsoleprint("@@RED@@")
 rconsoleprint([[
 
