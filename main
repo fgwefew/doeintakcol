@@ -4,32 +4,11 @@ end
 if isfile("HttpSpy") then
 game.Players.LocalPlayer:Kick("")
 end
-wait(0.5)
 while true do
   rconsoleclear()
   sleep(0.1)
 end
-wait(1)
-rconsoleprint("@@RED@@")
-rconsoleprint([[
-
-                          $$\                            $$\     $$\       $$\                     $$\       
-                          $$ |                           $$ |    \__|      $$ |                    $$ |      
- $$$$$$\   $$$$$$\   $$$$$$$ |       $$$$$$\  $$$$$$$\ $$$$$$\   $$\       $$ | $$$$$$\   $$$$$$$\ $$ |  $$\ 
-$$  __$$\ $$  __$$\ $$  __$$ |       \____$$\ $$  __$$\\_$$  _|  $$ |      $$ |$$  __$$\ $$  _____|$$ | $$  |
-$$$$$$$$ |$$ /  $$ |$$ /  $$ |       $$$$$$$ |$$ |  $$ | $$ |    $$ |      $$ |$$ /  $$ |$$ /      $$$$$$  / 
-$$   ____|$$ |  $$ |$$ |  $$ |      $$  __$$ |$$ |  $$ | $$ |$$\ $$ |      $$ |$$ |  $$ |$$ |      $$  _$$<  
-\$$$$$$$\ \$$$$$$  |\$$$$$$$ |      \$$$$$$$ |$$ |  $$ | \$$$$  |$$ |      $$ |\$$$$$$  |\$$$$$$$\ $$ | \$$\ 
- \_______| \______/  \_______|       \_______|\__|  \__|  \____/ \__|      \__| \______/  \_______|\__|  \__|
-                                                                                                             
-                                                                                                             
-                                                                                                             
-                                         Made By eod#7333
-                                         discord.gg/hhAndKvyRd for support
-                                             Enjoy!!!!
-                                         12/8/2022 script updated
-                                         cracked by ray.#9872
-]])
+wait(0.01)
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("eod's anti lock [V3.5]", "Synapse")
 local Tab = Window:NewTab("Main")
